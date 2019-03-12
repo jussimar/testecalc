@@ -1,0 +1,102 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+  <meta http-equiv="Content-Security-Policy" content="default-src * data: gap: https://ssl.gstatic.com; style-src * 'unsafe-inline'; script-src * 'unsafe-inline' 'unsafe-eval'">
+  <script src="components/loader.js"></script>
+  
+  <!-- Código Jquery -->
+  <script src="components/jquery-3.3.1.min.js"></script>
+  <script src="components/acao.js"></script>
+
+  <link rel="stylesheet" href="components/loader.css">
+  
+  <!-- Css da aplicação -->
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/style.css">
+
+  <script>
+    
+  </script>
+</head>
+<body>
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-12">
+              <h1> Calculadora </h1>
+          </div>
+        </div>
+        <div class="row">
+            <div class="col-xs-12">
+               <div class="form-group">
+                    <input type="text" class="form-control" id="texto" readonly>
+               </div>
+            </div>
+        </div>
+        <!-- Primeira fileira de botão -->
+        <div class="row linha">
+          <div class="col-xs-3">
+              <button class="btn btn-primary btn-block botao" id="btn7" value="7">7</button>
+          </div>
+          <div class="col-xs-3">
+              <button class="btn btn-primary btn-block botao" id="btn8" value="8">8</button>
+          </div>
+          <div class="col-xs-3">
+              <button class="btn btn-primary btn-block botao" id="btn9" value="9">9</button>
+          </div>
+          <div class="col-xs-3">
+              <button class="btn btn-danger btn-block" id="soma">+</button>
+          </div>
+        </div>
+
+        <!-- Segunda fileira de botão -->
+        <div class="row linha">
+          <div class="col-xs-3">
+              <button class="btn btn-primary btn-block botao" id="btn4" value="4">4</button>
+          </div>
+          <div class="col-xs-3">
+              <button class="btn btn-primary btn-block botao" id="btn5"  value="5">5</button>
+          </div>
+          <div class="col-xs-3">
+              <button class="btn btn-primary btn-block botao" id="btn6"  value="6">6</button>
+          </div>
+          <div class="col-xs-3">
+              <button class="btn btn-danger btn-block" id="sub">-</button>
+          </div>
+        </div>
+
+        <!-- terceira fileira de botão -->
+        <div class="row linha">
+          <div class="col-xs-3">
+              <button class="btn btn-primary btn-block botao" id="btn1"  value="1">1</button>
+          </div>
+          <div class="col-xs-3">
+              <button class="btn btn-primary btn-block botao" id="btn2"  value="2">2</button>
+          </div>
+          <div class="col-xs-3">
+              <button class="btn btn-primary btn-block botao" id="btn3"  value="3">3</button>
+          </div>
+          <div class="col-xs-3">
+              <button class="btn btn-danger btn-block" id="mult">*</button>
+          </div>
+        </div>
+
+        <!-- Quarta fileira de botão -->
+        <div class="row linha">
+          <div class="col-xs-3">
+              <button class="btn btn-primary btn-block" id="ce">CE</button>
+          </div>
+          <div class="col-xs-3">
+              <button class="btn btn-primary btn-block botao" id="btn0"  value="0">0</button>
+          </div>
+          <div class="col-xs-3">
+              <button class="btn btn-success btn-block" id="igual">=</button>
+          </div>
+          <div class="col-xs-3">
+              <button class="btn btn-primary btn-block" id="div">/</button>
+          </div>
+        </div>
+        
+</body>
+</html>
